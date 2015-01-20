@@ -8,8 +8,10 @@ npm.load({loglevel: 'silent'}, function() {
             var result = results[i];
 
             if(result[2] !== result[3]){
-                process.exit(1);
+                console.log('nope');
+                process.exit();
             }
         }
+        console.log('legit');
     });
 });

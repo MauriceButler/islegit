@@ -19,7 +19,7 @@
   "bin": {
     "islegit": "index.js"
   },
-  "dependencies": {
+  "peerDependencies": {
     "npm": "^2.2.0"
   }
 }
